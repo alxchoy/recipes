@@ -2,6 +2,31 @@
 $navbar-bg: #073B15;
 @import "bootstrap";
 
+footer {
+  background-color: #073B15;
+  color: #fff;
+  padding: 30px 0px;
+  .container {
+    display: flex;
+    justify-content: space-around;
+    ul {
+      padding: 0px;
+      margin: 0px;
+      li {
+        list-style: none;
+        float: left;
+        margin: 0px 10px;
+        a {
+          color: #fff;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
 .navbar {
   background-color: $navbar-bg;
 }
